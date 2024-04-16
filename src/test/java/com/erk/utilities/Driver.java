@@ -38,7 +38,7 @@ public class Driver {
 //                    caps.setApp("C:\\Users\\Data\\IdeaProjects\\Appium_Mobile\\swaglabsApp.apk");
 //                    it might be give an error according to path, so we can use like below
                     String testDir=System.getProperty("user.dir");
-                    caps.setApp(testDir+"/saglabsApp.apk");
+                    caps.setApp(testDir+"/swaglabsApp.apk");
                     caps.setAppPackage("com.swaglabsmobileapp"); //we get this info from appium server error logs
                     caps.setAppActivity("com.swaglabsmobileapp.MainActivity"); //we get this info from appium server error logs
                     try {
